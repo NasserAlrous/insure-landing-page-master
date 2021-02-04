@@ -1,0 +1,266 @@
+body{
+  height: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.intro-img-mobile{display: none;}
+.content-mobile{display: none;}
+
+.title{
+  font-family: 'Playfair Display', serif;
+}
+
+.container-fluid {
+  max-width: 100%;
+  padding: 0;
+}
+
+.first-container {
+  margin-bottom: 150px;
+}
+
+.navbar {
+  background-color: white;
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  z-index: 2;
+}
+
+.navbar-nav {
+  position: absolute;
+  right: 2%;
+}
+
+
+.background-img {
+    position: relative;
+    background-color: #3b2e5a;
+    max-width: 100%;
+    min-height: 470px;
+}
+.intro-img-desktop {
+  position: absolute;
+  bottom: 2%;
+  height: 80%;
+  right: 5%;
+}
+
+.second-container {
+  left: 50px;
+  max-width: 90%;
+}
+
+.second-container .slogan{
+  margin-left: 100px;
+}
+
+.features {
+  margin: 90px;
+}
+
+.feature-icons {
+  margin-bottom: 10%;
+}
+
+.mid-bg-img{
+  position: relative;
+  background-color: #3b2e5a;
+  min-height: 250px;
+  margin: 100px;
+  color: white;
+}
+
+.slogan2 {
+  position: absolute;
+  max-width: 500px;
+  margin-left: 5%;
+  top: 30%;
+  font-size: 3.2rem;
+}
+
+.how-we-work {
+  position: absolute;
+  right: 10%;
+  bottom: 45%;
+  border-radius: 0;
+  width: 12%;
+}
+
+.third-container {
+  background-color: #f6f6f6;
+  text-decoration: none;
+}
+
+.content-desktop{
+  padding: 2%;
+}
+
+.content-desktop a{
+  color: #a6a9b6;
+}
+
+.category {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.social-icon{
+  margin: 3%;
+}
+
+#main-text {
+  position: absolute;
+  top: 28%;
+  left: 18%;
+  max-width: 43%;
+  color: white;
+}
+
+#main-text h1 {
+  font-size: 4rem;
+  margin: 10px;
+}
+
+#main-text h5 {
+  font-size: 1rem;
+  margin: 10px;
+  font-weight: 400;
+}
+
+#main-text .btn{
+  margin: 30px 10px 10px;
+  border-radius: 0;
+  width: 20%;
+}
+
+#intro-left-desktop {
+  position: absolute;
+  top: 40%;
+}
+
+#intro-right-desktop {
+  position: absolute;
+  right: 0%;
+  top: -5%;
+  z-index: 1;
+  height: 70%;
+}
+
+#bg-pattern-how-we-work {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+
+#footer-img {
+  position: absolute;
+  left: 0;
+}
+
+#footer-logo{
+  position: absolute;
+  margin-top: 3%;
+  padding-left: 2%;
+}
+
+#social-icons {
+  position: absolute;
+  right: 5%;
+  margin-top: 3%;
+  width: 10%;
+}
+@media only screen and (max-width: 800px) {
+  #intro-left-desktop{display: none;}
+  #intro-right-desktop{display: none;}
+  #footer-img{display: none;}
+  #bg-pattern-how-we-work{display: none;}
+  .intro-img-desktop{display: none;}
+  .content-desktop{display: none;}
+  .content-mobile{display: block;}
+  .intro-img-mobile{
+    display: block;
+    width: 100%;
+  }
+  .background-img {
+    min-height: 700px;
+  }
+
+  .view-plans {
+    min-width: 150px;
+  }
+
+  .second-container {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .slogan {
+    text-align: center;
+    margin-right: 50px;
+  }
+
+  .mid-bg-img{
+    min-width: 100%;
+    min-height: 320px;
+    margin: 0;
+  }
+
+  .how-we-work{
+    min-width: 150px;
+    bottom: 5%;
+    left: 35%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+
+  .third-container{
+    text-align: center;
+  }
+
+  .content-mobile {
+    position: relative;
+    margin-top: 15%;
+  }
+
+  .content-mobile h6 {
+    margin-top: 10%;
+  }
+
+  .content-mobile a{
+    color: #a6a9b6;
+  }
+  #main-text{
+    text-align: center;
+    margin: 10%;
+    margin-left: 8px;
+    top: 20px;
+    min-width: 70%;
+    right: 50%;
+  }
+
+  #main-text h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  #main-text h5 {
+    margin-top: 10%;
+    font-size: 1.5rem;
+  }
+
+  #footer-logo{
+    position: absolute;
+    margin-top: 3%;
+    right: 40%;
+  }
+
+  #social-icons {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    top: 50px;
+  }
+
+}
